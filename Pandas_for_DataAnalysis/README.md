@@ -1,6 +1,6 @@
 # Pandas_for_DataAnalysis
 <br />
-This repository holds the necessary files required for the following article on Medium
+This folder holds the necessary files required for the following article on Medium
 
 <br />
 
