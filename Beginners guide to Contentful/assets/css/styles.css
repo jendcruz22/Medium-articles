@@ -1,0 +1,76 @@
+.heading {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.main {
+    display: flex;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.blogItem {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.blogTitle {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.image {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.articleImage {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-style {
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+}
+
+.button:hover {
+    font-weight: bold;
+    padding: 15px;
+}
+.articleTitle {
+    text-align: center;
+}
+
+.articleContainer {
+    width: 70%;
+}
+
+.sideNav {
+    width: 30%;
+    right: 0;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Beginners guide to Contentful</title>
+</head>
+
+<body>
+    <h1 class="heading">Dummy Blog</h1>
+
+    <a class="a" href="./index.html">Back home</a>
+
+    <div class="main">
+        <!-- Main blog content -->
+        <div id="articleContainer">
+            <h2 class="articleTitle">Title</h2>
+            <img class="articleImage" src="URL">
+            <p class="blogContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur architecto sint
+                vel nemo provident commodi ea, quae voluptatibus praesentium ducimus suscipit voluptate itaque quam
+                voluptates dolorem corrupti a cum labore?</p>
+        </div>
+
+        <!-- Sidebar -->
+        <aside>
+            <ul id="sideNav">
+                <a class="a" href="article.html?id=XYZ">
+                    <li class="sideNavListItem">Other article's title</li>
+                </a>
+                <a class="a" href="article.html?id=XYZ">
+                    <li class="sideNavListItem">Other article's title</li>
+                </a>
+                <a class="a" href="article.html?id=XYZ">
+                    <li class="sideNavListItem">Other article's title</li>
+                </a>
+            </ul>
+        </aside>
+    </div>
+</body>
+
+<!-- Link to Contentful's Content Delivery Network (CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+<!-- Our JavaScript file that helps us retrieve the content we created in our models -->
+<script src="./assets/js/article.js"></script>
+
+</html>
